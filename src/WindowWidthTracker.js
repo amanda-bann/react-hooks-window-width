@@ -7,9 +7,12 @@ const WindowWidthTracker = () => {
   useEffect(() => {
     const trackWindowWidth = () => {
       setWindowWidth(window.innerWidth);
+      console.log(window.innerWidth);
     };
 
     window.addEventListener("resize", trackWindowWidth);
+
+    return () => window.removeEventListener("resize", trackWindowWidth);
   }, []);
 
   return <p>The window is now {windowWidth}px wide!</p>;

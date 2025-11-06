@@ -2,19 +2,24 @@
   "name": "l04-practice-exercise-01-starter",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://amanda-bann.github.io/react-hooks-window-width/",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "loader-utils": "3.2.1",
+    "make-manifest": "^2.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8",
+    "gh-pages": "^6.3.0",
     "typescript": "4.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

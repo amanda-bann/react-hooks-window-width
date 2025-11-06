@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-hooks-window-width/static/css/main.ce16b210.css",
+    "main.js": "/react-hooks-window-width/static/js/main.62a1c81c.js",
+    "index.html": "/react-hooks-window-width/index.html",
+    "main.ce16b210.css.map": "/react-hooks-window-width/static/css/main.ce16b210.css.map",
+    "main.62a1c81c.js.map": "/react-hooks-window-width/static/js/main.62a1c81c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce16b210.css",
+    "static/js/main.62a1c81c.js"
+  ]
+}
